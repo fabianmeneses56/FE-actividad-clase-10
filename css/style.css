@@ -1,0 +1,76 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+.descuentos {
+  background-color: #1cd1b0;
+  box-sizing: border-box;
+  padding: 10px;
+  height: 38px;
+}
+.heroesContainer {
+  box-sizing: border-box;
+  background-color: #00669f;
+  height: 101px;
+  padding: 28px;
+}
+.contenedorCards {
+  display: flex;
+  margin-top: 154px;
+  margin-bottom: 154px;
+  justify-content: space-between;
+}
+.contenedorHeroe {
+  width: 300px;
+  height: 529px;
+  background-color: #f3f3f3;
+  position: relative;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.corazon {
+  position: absolute;
+  top: 16px;
+  left: 21px;
+}
+.fotoHeroe {
+  position: absolute;
+  top: 128px;
+  left: 90px;
+  border-radius: 50%;
+}
+.contenedorDescripcion {
+  margin-top: 73px;
+  text-align: justify;
+  margin-bottom: 37px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.contenedorDescripcion h3 {
+  margin-top: 73px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.botonVerMas {
+  background-color: #00669f;
+  padding: 15px 35px;
+  color: #fff;
+  text-decoration: none;
+}
+.contenedorVerMas {
+  display: flex;
+  justify-content: center;
+}
+.containerFooter {
+  background-color: #00669f;
+  height: 51px;
+  display: flex;
+
+  align-items: center;
+}
+.textFooter {
+  margin-left: 16px;
+  color: #fff;
+}
